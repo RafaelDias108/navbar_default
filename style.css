@@ -1,0 +1,39 @@
+* {
+   margin: 0; 
+   padding: 0;
+   box-sizing: border-box; 
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+a:hover {
+    background: rgba(0, 0, 0, .05);
+}
+#logo-header {
+    background: transparent;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+#header {
+    display: flex;
+    align-items: center;
+    height: 70px;
+    padding: 1rem 2rem;
+    justify-content: space-between;
+    background: #e7e7e7;
+}
+
+#menu {
+    display: flex;
+    list-style: none;
+    gap: .5rem;
+}
+
+#menu a {
+    display: block;
+    padding: .5rem;
+}
