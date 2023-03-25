@@ -11,11 +11,11 @@ function toggleMenu(event) {
     if(navbar.classList.contains("active")){
         event.currentTarget.setAttribute('arial-expanded', 'true');
         event.currentTarget.setAttribute('aria-label', 'Fechar Menu');
-        btnMobile.children[0].attributes[1].value = "close-outline";
+        // btnMobile.children[0].attributes[1].value = "close-outline";
     }else{
         event.currentTarget.setAttribute('arial-expanded', 'false');
         event.currentTarget.setAttribute('aria-label', 'Abrir Menu');
-        btnMobile.children[0].attributes[1].value = "menu-outline";
+        // btnMobile.children[0].attributes[1].value = "menu-outline";
     }
 }
 
